@@ -1,0 +1,159 @@
+.joquempo-game {
+    width: 100%;
+    height: 100%;
+    background-color: #82CDFF;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.scoreboard-box {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.scoreboard-winner {
+
+    min-width: 430px;
+    min-height: 74px;
+    background-color: #0099FF;
+    font-size: 33px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 17px 17px 0 0;
+    padding: 0px 15px;
+    width: fit-content;
+}
+
+.scoreboard-points-wrapper {
+
+
+    min-width: 949px;
+    height: 148px;
+    background-color: rgb(0, 153, 255);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 17px;
+
+}
+
+.name-player {
+
+    min-width: 199px;
+    height: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.scoreboard-player {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    color: #0099FF;
+    min-width: 131px;
+    min-height: 120px;
+    border-radius: 17px;
+    font-size: 85px;
+    font-weight: 900;
+    padding: 15px;
+}
+
+.versus-game {
+
+    color: #ffffff;
+    font-size: 70px;
+    font-weight: 900;
+
+}
+
+.duel-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 93%;
+    height: 414px;
+}
+
+.duel-choice-box {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+}
+
+.duel-window-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #0099FF;
+    padding: 30px;
+    margin: 0px 19px;
+}
+
+.button-choice {
+    width: 220px;
+    height: 80px;
+    background-color: #0099FF;
+    color: white;
+    font-size: 45px;
+    font-weight: 600;
+    border-radius: 8px;
+    transition-duration: 300ms;
+}
+
+.duel-versus-game {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 104px;
+    font-weight: 900;
+    color: #ffffff;
+}
+
+.window-choice {
+    width: 40%;
+    background-color: #DBF1FF;
+    height: 99%;
+    border-radius: 17px;
+}
+
+.options-duel-box {
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+    
+}
+
+.button-choice.button-options {
+    width: 41.4%;
+    font-size: 33px;
+    height: 69px;
+}
+
+.button-choice:hover {
+    background-color: transparent;
+    border: solid 1px #0099FF;
+    color: #0099FF;
+    box-shadow: 3px 3px 7px #000000;
+}
