@@ -16,42 +16,44 @@
     <main class="joquempo-game">
 
         <section class="scoreboard-box">
-            <span class="scoreboard-winner">Jogadora 1 ganhou!</span>
+            <span class="scoreboard-winner">Aguardando Vencedor</span>
             <div class="scoreboard-points-wrapper">
                 <span class="name-player">Jogadora 1</span>
-                <span class="scoreboard-player">02</span>
+                <span class="scoreboard-player player1-points">00</span>
                 <span class="versus-game">vs</span>
-                <span class="scoreboard-player">01</span>
+                <span class="scoreboard-player player2-points">00</span>
                 <span class="name-player">Jogadora 2</span>
             </div>
         </section>
 
         <section class="duel-box">
             <div class="duel-choice-box">
-                <button class="button-choice">Pedra</button>
-                <button class="button-choice">Papel</button>
-                <button class="button-choice">Tesoura</button>
+                <button class="button-choice button-stone-player-1">Pedra</button>
+                <button class="button-choice button-paper-player-1">Papel</button>
+                <button class="button-choice button-scissors-player-1">Tesoura</button>
             </div>
             <div class="duel-window-box">
 
-                <div class="window-choice"></div>
+                <div class="window-choice window-choice-player-1"></div>
                 <span class="duel-versus-game">vs</span>
-                <div class="window-choice"></div>
+                <div class="window-choice window-choice-player-2"></div>
 
             </div>
             <div class="duel-choice-box">
-                <button class="button-choice">Pedra</button>
-                <button class="button-choice">Papel</button>
-                <button class="button-choice">Tesoura</button>
+                <button class="button-choice button-stone-player-2">Pedra</button>
+                <button class="button-choice button-paper-player-2">Papel</button>
+                <button class="button-choice button-scissors-player-2">Tesoura</button>
             </div>
         </section>
 
         <section class="options-duel-box">
-            <button class="button-choice button-options">Iniciar</button>
-            <button class="button-choice button-options">Resetar</button>
+            <button class="button-choice button-options button-start">Iniciar</button>
+            <button class="button-choice button-options button-reset">Resetar</button>
         </section>
 
     </main>
+
+    <script src = './scripts/index.js'></script>
 </body>
 
 </html>
